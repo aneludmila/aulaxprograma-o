@@ -1,0 +1,31 @@
+/* Estilos para o parágrafo com id "p1" */
+#p1 {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333; /* Cor do texto */
+    margin-bottom: 20px; /* Espaçamento inferior */
+}
+
+/* Estilos para o parágrafo com id "p2" */
+#p2 {
+    font-style: italic;
+    color: #007bff; /* Cor do texto em azul */
+    margin-bottom: 20px;
+}
+
+/* Estilos para o parágrafo com id "p3" */
+#p3 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 18px;
+    color: #ff5733; /* Cor do texto em laranja */
+    text-align: center; /* Alinhamento centralizado */
+    margin-bottom: 20px;
+}
+
+/* Estilos para o parágrafo com id "p4" */
+#p4 {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #4CAF50; /* Cor do texto em verde */
+    margin-bottom: 20px;
+}

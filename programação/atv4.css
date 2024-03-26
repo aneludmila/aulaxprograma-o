@@ -1,0 +1,23 @@
+/* Estilizando o background com cor */
+.background1 {
+    background-color: #f0f0f0; /* Cor de fundo cinza claro */
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Estilizando o background com imagem */
+.background2 {
+    background-image: url('https://via.placeholder.com/500'); /* URL da imagem de exemplo */
+    background-size: cover; /* Cobrir todo o espaço disponível */
+    color: white; /* Cor do texto branco para melhor contraste */
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Estilizando o background gradiente */
+.background3 {
+    background: linear-gradient(to right, #4CAF50, #2196F3); /* Gradiente de verde para azul */
+    color: white; /* Cor do texto branco para melhor contraste */
+    padding: 20px;
+    margin-bottom: 20px;
+}
