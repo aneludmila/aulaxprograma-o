@@ -1,0 +1,101 @@
+.header {
+    display: flex;
+    justify-content: space-between; /* Coloca os elementos nas extremidades */
+    align-items: center;
+    background-color: pink; /* Cor de fundo */
+    padding: 20px; /* Adicionando espaçamento interno */
+    box-sizing: border-box; /* Incluindo padding na largura total */
+}
+
+.header h1, .header h2 {
+    margin: 0; /* Remove as margens padrão dos elementos */
+    font-family: Arial, sans-serif; /* Define a fonte */
+    font-size: 18px; /* Define o tamanho da fonte */
+}
+.banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /* Centraliza os itens ao longo do eixo principal (horizontal) */
+    align-items: center;
+    background-color: pink; /* Cor de fundo */
+    width: 100%; /* Ocupa toda a largura */
+    padding: 20px; /* Adicionando espaço interno */
+    box-sizing: border-box; /* Incluindo padding na largura total */
+    margin-top: 10px; /* Define a distância do topo da página */
+
+}
+.intro {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /* Centraliza os itens ao longo do eixo principal (horizontal) */
+    align-items: center;
+    background-color: pink; /* Cor de fundo */
+    width: 100%; /* Ocupa toda a largura */
+    padding: 20px; /* Adicionando espaço interno */
+    box-sizing: border-box; /* Incluindo padding na largura total */
+    margin-top: 10px; /* Define a distância do topo da página */
+
+}
+.flex > div{
+    flex: 1 10 100px;
+    gap: 100px;
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.box1{
+    flex-direction: column;
+    width: 400px; /* Largura desejada para o sidebar */
+    height: 840px; /* Altura desejada para o sidebar */
+    background-color: pink; /* Cor de fundo */
+    padding: 30px;
+    box-sizing: border-box;
+    margin-top: 10px; /* Define a distância do topo da página */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* Centraliza os itens horizontalmente */
+    text-align: center; /* Centraliza o texto horizontalmente */
+}
+.box2 {
+    flex-direction: column;
+    width: 400px; /* Largura desejada para o sidebar */
+    height: 840px; /* Altura desejada para o sidebar */
+    background-color: pink; /* Cor de fundo */
+    padding: 30px;
+    box-sizing: border-box;
+    margin-top: 10px; /* Define a distância do topo da página */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* Centraliza os itens horizontalmente */
+    text-align: center; /* Centraliza o texto horizontalmente */
+}
+.box3{
+    flex-direction: column;
+    width: 400px; /* Largura desejada para o sidebar */
+    height: 840px; /* Altura desejada para o sidebar */
+    background-color: pink; /* Cor de fundo */
+    padding: 30px;
+    box-sizing: border-box;
+    margin-top: 10px; /* Define a distância do topo da página */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* Centraliza os itens horizontalmente */
+    text-align: center; /* Centraliza o texto horizontalmente */
+}
+.footer {
+    display: flex;
+    flex-direction: row; /* Define a direção do layout flexível */
+    justify-content: center; /* Centraliza os itens ao longo do eixo principal (horizontal) */
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    row-gap: 5px;
+    column-gap: 20px;
+    background-color: pink; /* Cor de fundo */
+    margin-top: 10px; /* Define a distância do topo da página */
+}

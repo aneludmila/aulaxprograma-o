@@ -1,0 +1,78 @@
+.header {
+    display: flex;
+    flex-direction: row; /* Define a direção do layout flexível */
+    justify-content: flex-start; /* Centraliza os itens ao longo do eixo principal (horizontal) */
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    row-gap: 10px;
+    column-gap: 30px;
+    background-color: lightblue; /* Define a cor de fundo */
+}
+.navigation {
+    display: flex;
+    flex-direction: row; /* Define a direção do layout flexível */
+    justify-content: center; /* Centraliza os itens ao longo do eixo principal (horizontal) */
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    row-gap: 5px;
+    column-gap: 20px;
+    background-color: rgb(96, 183, 212); /* Define a cor de fundo */
+    margin-top: 10px; /* Define a distância do topo da página */
+
+}
+.banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /* Centraliza os itens ao longo do eixo principal (horizontal) */
+    align-items: center;
+    background-color: hwb(195 68% 10%); /* Cor de fundo */
+    width: 100%; /* Ocupa toda a largura */
+    padding: 20px; /* Adicionando espaço interno */
+    box-sizing: border-box; /* Incluindo padding na largura total */
+    margin-top: 10px; /* Define a distância do topo da página */
+
+}
+
+.header h2 {
+    margin: 0; /* Remove as margens padrão do elemento h2 */
+}
+.sidebar {
+    width: 400px; /* Largura desejada para o sidebar */
+    height: 950px; /* Altura desejada para o sidebar */
+    background-color: rgb(115, 170, 212);
+    padding: 30px;
+    box-sizing: border-box;
+    margin-top: -950px; /* Define a distância do topo da página */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: 50px;;
+    left: 0;
+    top: 0;
+}
+.body {
+    width: 950px; /* Largura desejada para o body */
+    height: 950px; /* Altura desejada para o body */
+    background-color: lightblue;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-left: 500px; /* Margem à esquerda para alinhar com o sidebar */
+    margin-top: 30px; /* Define a distância do topo da página */
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+}
+.footer {
+    display: flex;
+    flex-direction: row; /* Define a direção do layout flexível */
+    justify-content: center; /* Centraliza os itens ao longo do eixo principal (horizontal) */
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    row-gap: 5px;
+    column-gap: 20px;
+    background-color: rgb(96, 183, 212); /* Define a cor de fundo */
+    margin-top: 10px; /* Define a distância do topo da página */
+}
