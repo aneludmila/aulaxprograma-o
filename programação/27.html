@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Cálculo de Consumo de Energia</title>
+ <style>
+    /* Estilos básicos para a página */
+    body {
+      font-family: Arial, sans-serif;
+    }
+    #resultado {
+      border: 1px solid #000000;
+      padding: 10px;
+      width: 50%;
+    }
+    /* Adicionado estilo para os botões */
+    button {
+      background-color: #113255; /* Cor azul */
+      color: #ffffff; /* Cor do texto branco */
+      border: outset;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #afa6a6; /* Cor azul escuro ao passar o mouse */
+    }
+    /* Adicionado estilo para os botões lado a lado */
+    #novo, #calcular {
+      float: left;
+      margin-right: 10px;
+    }
+  </style>
+</head>
+<link rel="icon" href="">
+<body>
+ <h1>Cálculo de Consumo de Energia</h1>
+ <form>
+  <label for="leitura_anterior">Leitura Anterior:</label>
+  <input type="number" id="leitura_anterior" required>
+  <br><br>
+  <label for="leitura_atual">Leitura Atual:</label>
+  <input type="number" id="leitura_atual" required>
+  <br><br>
+  <label for="baixa_renda">Baixa Renda:</label>
+  <input type="checkbox" id="baixa_renda">
+  <br><br>
+  <div id="resultado"></div>
+  <br><br>
+  <button id="novo">Novo</button>
+  <button id="calcular">Calcular</button>
+ </form>
+
+ <script src="atv.js"></script>
+</body>
+</html>
