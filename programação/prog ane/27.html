@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Calculo de Consumo de Energia</title>
+  <style>
+    /* Estilos básicos para a página */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #0b0935; /* Cor de fundo */
+      color: #ffffff; /* Cor do texto */
+    }
+    h1 {
+    color: #f2ff00;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 0 0 10px rgb(254, 254, 254);
+    }
+    form {
+      max-width: 900px; /* Largura máxima do formulário */
+      margin: 60px auto; /* Centralizar o formulário */
+      padding: 60px; /* Espaçamento interno do formulário */
+      box-shadow: 0 0 200px rgb(242, 255, 0); /* Sombra do formulário */
+    }
+    label {
+      display: block; /* Exibir labels como blocos */
+      margin-bottom: 10px; /* Espaçamento entre labels */
+    }
+    input[type="number"] {
+      width: 100%; /* Largura dos campos de entrada */
+      height: 40px; /* Altura dos campos de entrada */
+      margin-bottom: 20px; /* Espaçamento entre campos de entrada */
+      padding: 10px; /* Espaçamento interno dos campos de entrada */
+      border: 1px solid #ccc; /* Bordas dos campos de entrada */
+    }
+    input[type="checkbox"] {
+      margin-right: 10px; /* Espaçamento entre checkbox e label */
+    }
+    button {
+      background-color: #113255; /* Cor azul */
+      color: #ffffff; /* Cor do texto branco */
+      border: outset;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #afa6a6; /* Cor azul escuro ao passar o mouse */
+    }
+    #resultado {
+      border: 1px solid #000000;
+      color: #000000;
+      padding: 10px;
+      width: 50%;
+      background-color: #f2f2f2; /* Cor de fundo cinza claro */
+      border-radius: 10px; /* Arredondar bordas do resultado */
+    }
+    #novo, #calcular {
+      float: left;
+      margin-right: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Calculo de Consumo de Energia</h1>
+  <form>
+    <label for="leitura_anterior">Leitura Anterior:</label>
+    <input type="number" id="leitura_anterior" required>
+    <br><br>
+    <label for="leitura_atual">Leitura Atual:</label>
+    <input type="number" id="leitura_atual" required>
+    <br><br>
+    <label for="baixa_renda">Baixa Renda:</label>
+    <input type="checkbox" id="baixa_renda">
+    <br><br>
+    <div id="resultado"></div>
+    <br><br>
+    <button id="calcular">Calcular</button>
+    <button id="novo">Novo</button>
+  </form>
+
+  <script src="atv.js"></script>
+</body>
+</html>
