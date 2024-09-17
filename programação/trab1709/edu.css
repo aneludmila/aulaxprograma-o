@@ -1,0 +1,212 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9efd4;
+    color: #333;
+    text-align: center;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+header {
+    background-color: #a7848b;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav a {
+    color: #f9efd4;
+    text-decoration: none;
+    padding: 0 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 20px;
+    margin: 10px auto;
+    width: 100%;
+    max-width: 800px; /* A mesma largura máxima que a .container */
+    background: #f5d5c6;
+    border-radius: 0.625rem;
+    box-sizing: border-box; /* Certifica-se de que o padding e border estão incluídos na largura total */
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.625rem;
+    margin-bottom: 1.25rem;
+}
+
+.title label {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.title input {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 0.3125rem;
+    width: 100%;
+    max-width: 15rem;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color:  #f5d5c6;
+    border-radius: 0.625rem;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-sizing: border-box;
+}
+
+.color-selection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.625rem;
+    margin-bottom: 1.25rem;
+}
+
+.color-box {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 0.3125rem;
+    cursor: pointer;
+    border: 0.125rem solid #000;
+}
+
+.color-box.highlight {
+    border: 4px solid black;
+}
+
+.layout {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    background-color: #f9efd4;
+    width: 100%;
+    table-layout: auto;
+}
+
+th, td {
+    padding: 5px;
+    border: 1px solid #130606;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+th {
+    background-color:  #a7848b; /* color1 */
+    color: #f9efd4;;
+    font-weight: bold;
+}
+
+td img {
+    width: 100%;
+    height: auto;
+    max-width: 60px;
+    cursor: pointer;
+}
+
+.answer-list {
+    text-align: center;
+    font-size: 16px;
+    background-color: #f5d5c6;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.answer-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.answer-list li {
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+.answer-list li.selected {
+    background-color: #e0b8a1;
+    font-weight: bold;
+}
+
+button {
+    padding: 15px;
+    width: 100%;
+    background-color: #b88f93;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #a7848b;
+}
+
+footer {
+    text-align: center;
+    margin-top: auto;
+    width: 100%;
+    padding: 10px;
+}
+
+@media (min-width: 600px) {
+    .title {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .title label {
+        margin-right: 0.625rem;
+    }
+
+    .title input {
+        max-width: 10rem;
+    }
+
+    .layout {
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    table {
+        flex: 2;
+    }
+
+    .answer-list {
+        flex: 1;
+    }
+}
+
+@media (max-width: 600px) {
+    .title {
+        flex-direction: column;
+    }
+
+    .layout {
+        flex-direction: column;
+    }
+
+    table {
+        margin-bottom: 20px;
+    }
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pinte a Palavra Correta</title>
+    <link rel="stylesheet" href="edu.css">
+<body>
+    <header>
+        <h1>Atividade Educativa</h1>
+        <nav>
+            <a href="trabfim.html">Voltar à Página Inicial</a>
+        </nav>
+    </header>
+    <section id="app">
+        <h2>Posição e Localização</h2>
+        <p>Esta é uma aplicação educativa. Aqui você pode explorar e aprender.</p>
+    </section>
+    <div class="container">
+        <form>
+            <div class="title">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" placeholder="Nome do aluno" required>
+                <label for="data">Data:</label>
+                <input type="date" id="data" required>
+            </div>
+
+            <div class="color-selection">
+                <h3>Observe as Imagens e Selecione uma cor:</h3>
+                <div class="color-box" style="background-color: #f7a5a2;" id="red"></div>
+                <div class="color-box" style="background-color: #a5a5f3;" id="blue"></div>
+                <div class="color-box" style="background-color: #a0f0a0;" id="green"></div>
+            </div>
+            <div class="layout">
+                <table>
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th>A</th>
+                            <th>B</th>
+                            <th>C</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>1</th>
+                            <td><img src="aviao.png" alt="Avião"></td>
+                            <td><img src="maca.png" alt="Maçã"></td>
+                            <td><img src="formiga.png" alt="Formiga"></td>
+                        </tr>
+                        <tr>
+                            <th>2</th>
+                            <td><img src="bola.png" alt="Bola"></td>
+                            <td><img src="abelha.png" alt="Abelha"></td>
+                            <td><img src="gato.png" alt="Gato"></td>
+                        </tr>
+                        <tr>
+                            <th>3</th>
+                            <td><img src="xicara.png" alt="Xícara"></td>
+                            <td><img src="bolo.png" alt="Bolo"></td>
+                            <td><img src="donut.png" alt="Donut"></td>
+                        </tr>
+                        <tr>
+                            <th>4</th>
+                            <td><img src="peixe.png" alt="Peixe"></td>
+                            <td><img src="flor.png" alt="Flor"></td>
+                            <td><img src="ball.png" alt="Bola de Futebol"></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="answer-list">
+                    <h3>Pinte os quadrados dos objetos que estão nas posições:</h3>
+                    <ul>
+                        <li>A2 -- Bola - Flor</li>
+                        <li>A3 -- Bola - Xícara</li>
+                        <li>A4 -- Bolo - Peixe</li>
+                        <li>B1 -- Bola - Maçã</li>
+                        <li>B2 -- Xícara - Abelha</li>
+                        <li>B3 -- Bolo - Gato</li>
+                        <li>B4 -- Flor - Bolo</li>
+                        <li>C1 -- Gato - Formiga</li>
+                    </ul>
+                </div>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+        <script src="edu.js"></script>
+    </div>
+    <footer>
+        <p>&copy; 2024 Ane Ludmila Monteiro Machado - Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
